@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { ContentsComponent } from './component/contents/contents.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { RegistryComponent } from './component/registry/registry.component';
 
 
 @NgModule({
@@ -14,6 +16,8 @@ import { ContentsComponent } from './component/contents/contents.component';
     HeaderComponent,
     FooterComponent,
     ContentsComponent,
+    ContactComponent,
+    RegistryComponent,
 
   ],
   imports: [
