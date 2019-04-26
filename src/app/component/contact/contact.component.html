@@ -1,3 +1,88 @@
-<p>
-  contact works!
-</p>
+<!-- Page Content -->
+<div class="container">
+
+  <!-- Page Heading/Breadcrumbs -->
+  <h1 class="mt-4 mb-3">Contacta
+    <small>con Nosotros</small>
+  </h1>
+
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a [routerLink]="['/home']">Inicio</a>
+    </li>
+    <li class="breadcrumb-item active">Contactos</li>
+  </ol>
+
+  <!-- Content Row -->
+  <div class="row">
+    <!-- Map Column -->
+    <div class="col-lg-8 mb-4">
+      <!-- Embedded Google Map -->
+      <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=1.0,-55.67768&amp;spn=0.504,972&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+    </div>
+    <!-- Contact Details Column -->
+    <div class="col-lg-4 mb-4">
+      <h3>Detalle de Contacto</h3>
+      <p>
+        Alvear 1561
+        <br>San Salvador de Jujuy, CP 4600<br>
+        <br>Jujuy - Argentina<br>
+      </p>
+      <p>
+        <abbr title="Phone">Celular</abbr>: +54 (388) 501-2769
+      </p>
+      <abbr title="Phone">Telefono</abbr>: +54 (388) 424-2105
+      <p>
+        <abbr title="Email">Correo Electronico</abbr>:
+        <a href="milton_molloja@hotmail.com">milton_molloja@hotmail.com
+        </a>
+      </p>
+      <p>
+        <abbr title="Hours">Horario de Actención</abbr>: Lunes a Viernes: 9:00 AM Hasta 5:00 PM
+      </p>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Contact Form -->
+  <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  <div class="row">
+    <div class="col-lg-8 mb-4">
+      <h3>Envie su Mensaje</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Nombre Completo:</label>
+            <input type="text" class="form-control" id="name" required data-validation-required-message="Por Favor Escriba su Nombre Completo.">
+            <p class="help-block"></p>
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Numero de Contacto:</label>
+            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por Favor Escriba su numero de Celular o Telefono">
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Direcion de Correo Electronico:</label>
+            <input type="email" class="form-control" id="email" required data-validation-required-message="Por Favor Escriba el correo electronico.">
+          </div>
+        </div>
+        <div class="control-group form-group">
+          <div class="controls">
+            <label>Mensaje:</label>
+            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Por Favor Escriba el Mensaje a Enviar." maxlength="999" style="resize:none"></textarea>
+          </div>
+        </div>
+        <div id="success"></div>
+        <!-- For success/fail messages -->
+        <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
+      </form>
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->

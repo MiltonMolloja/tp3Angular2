@@ -5,9 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
-import { ContentsComponent } from './component/contents/contents.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { RegistryComponent } from './component/registry/registry.component';
+import { HomeComponent } from './component/home/home.component';
+import { ServicesComponent } from './component/services/services.component';
+import { AboutComponent } from './component/about/about.component';
 
 
 @NgModule({
@@ -15,9 +17,11 @@ import { RegistryComponent } from './component/registry/registry.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ContentsComponent,
     ContactComponent,
     RegistryComponent,
+    HomeComponent,
+    ServicesComponent,
+    AboutComponent,
 
   ],
   imports: [
