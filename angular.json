@@ -29,11 +29,13 @@
             
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "src/styles.sass"
+              "src/styles.sass",
+              "src/assets/css/modern-business.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./src/assets/js/script.js"
             ],
             "es5BrowserSupport": true
           },

@@ -1,10 +1,174 @@
-<h1 class="mt-4 mb-3">Busqueda
-  <small>De Registros</small>
-</h1>
+<!-- Page Content -->
+<div class="container">
 
-<ol class="breadcrumb">
-  <li class="breadcrumb-item">
-    <a href="index.html">Inicio</a>
-  </li>
-  <li class="breadcrumb-item active">Registro</li>
-</ol>
+  <!-- Page Heading/Breadcrumbs -->
+  <h1 class="mt-4 mb-3">Busqueda
+    <small>De Registros</small>
+  </h1>
+
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="index.html">Inicio</a>
+    </li>
+    <li class="breadcrumb-item active">Registro</li>
+  </ol>
+
+  <!-- Intro Content -->
+  <p>Ingrese el Dato que desea Buscar...</p>
+  <div class="input-group">
+    <span class="input-group-addon col-sm-3 col-12">Buscar: </span>
+    <input id="filtrar" type="text" class="form-control col-sm-9 col-12"
+      placeholder="Nombre - Apellido - Registro - Departamento - Tarjeta (Si/No)">
+  </div>
+  <img>
+  <table class="table table-hover ">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Registro</th>
+        <th class="d-none d-sm-table-cell">Departamento</th>
+        <th class="d-none d-md-table-cell">Solo Efectivo?</th>
+      </tr>
+    </thead>
+    <tbody class="buscar">
+      <tr>
+        <td>Leticia del Valle</td>
+        <td>Abud</td>
+        <td>T- 61</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 61" title="T- 61">Perico</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 61" title="T- 61">No</a></td>
+      </tr>
+      <tr>
+        <td>Julio Esteban</td>
+        <td>Acuña</td>
+        <td>T- 65</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 65" title="T- 65">San Salvador de Jujuy</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 65" title="T- 65">Si</a></td>
+      </tr>
+      <tr>
+        <td>Carolina</td>
+        <td>Alexander</td>
+        <td>T- 62</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 61" title="T- 61">San Salvador de Jujuy</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 61" title="T- 61">No</a></td>
+      </tr>
+      <tr>
+        <td>Mariana</td>
+        <td>Antoraz</td>
+        <td>T- 69</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 69" title="T- 69">Perico</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 69" title="T- 69">Si</a></td>
+      </tr>
+      <tr>
+        <td>Carlos Horacio</td>
+        <td>Cabana Pereyra,</td>
+        <td>T- 88</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 88" title="T- 88">La Quiaca</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 88" title="T- 88">No</a></td>
+      </tr>
+      <tr>
+        <td>Eudoxia Martha</td>
+        <td>Contreras de Toro</td>
+        <td>T- 61</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 61" title="T- 61">Perico</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 61" title="T- 61">No</a></td>
+      </tr>
+      <tr>
+        <td>Leticia del Valle</td>
+        <td>Abud</td>
+        <td>T- 38</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 38" title="T- 38">Libertador General San Martin</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 38" title="T- 38">Si</a></td>
+      </tr>
+      <tr>
+        <td>Leonardo Gabriel</td>
+        <td>Casali</td>
+        <td>T- 72</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 72" title="T- 72">El Carmen</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 72" title="T- 72">Si</a></td>
+      </tr>
+      <tr>
+        <td>María Soledad</td>
+        <td>Carrillo</td>
+        <td>T- 82</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 82" title="T- 82">San Salvador de Jujuy</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 82" title="T- 82">No</a></td>
+      </tr>
+      <tr>
+        <td>María Elena</td>
+        <td>Del Rio de Morales</td>
+        <td>T- 30</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 30" title="T- 30">San Salvador de Jujuy</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 30" title="T- 30">Si</a></td>
+      </tr>
+      <tr>
+        <td>Julieta</td>
+        <td>Giacoppo</td>
+        <td>T- 85</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 85" title="T- 85">Perico</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 85" title="T- 85">No</a></td>
+      </tr>
+      <tr>
+        <td>Maria Carolina</td>
+        <td>Gerez</td>
+        <td>T- 14</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 14" title="T- 14">San Pedro</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 14" title="T- 14">Si</a></td>
+      </tr>
+      <tr>
+        <td>Maria Paula</td>
+        <td>Navarro Casasco</td>
+        <td>T- 90</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 90" title="T- 90">Perico</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 90" title="T- 90">No</a></td>
+      </tr>
+      <tr>
+        <td>Paula Virginia</td>
+        <td>Kristensen</td>
+        <td>T- 95</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 95" title="T- 95">Libertador General San Martin</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 95" title="T- 95">Si</a></td>
+      </tr>
+      <tr>
+        <td>Maria Gabriela</td>
+        <td>Melano Ricci</td>
+        <td>T- 46</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 46" title="T- 46">Palpalá</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 46" title="T- 46">No</a></td>
+      </tr>
+      <tr>
+        <td>Olga Olivia</td>
+        <td>Otero</td>
+        <td>T- 14</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 14" title="T- 14">San Pedro</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 14" title="T- 14">Si</a></td>
+      </tr>
+      <tr>
+        <td>Flora Victoria</td>
+        <td>Miranda</td>
+        <td>T- 55</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 55" title="T- 55">Libertador General San Martin</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 55" title="T- 55">No</a></td>
+      </tr>
+      <tr>
+        <td>Silvia Beatriz</td>
+        <td>Reinozo</td>
+        <td>T- 83</td>
+        <td class="d-none d-sm-table-cell"><a target="_blank" alt="T- 83" title="T- 83">Humahuaca</a></td>
+        <td class="d-none d-md-table-cell"><a target="_blank" alt="T- 83" title="T- 83">Si</a></td>
+      </tr>
+
+    </tbody>
+  </table>
+  <!-- /.row -->
+
+  <!-- Team Members -->
+  
+  <!-- /.row -->
+
+  <!-- Our Customers -->
+  
+  <!-- /.row -->
+
+</div>

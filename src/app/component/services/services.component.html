@@ -2,3 +2,149 @@
 <h1 class="mt-4 mb-3">SERVICIOS
   <small>A LA COMUNIDAD</small>
 </h1>
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">
+    <a [routerLink]="['/home']">Inicio</a>
+  </li>
+  <li class="breadcrumb-item active">Servicios</li>
+</ol>
+
+<!-- Image Header -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style=" background-image: url('assets/img/services-img-1.jpg')">
+      <div class="carousel-caption d-none d-md-block"
+        style="color: black; background: rgb(223, 223, 223); opacity: 0.5">
+        <h3>Registro Actos de Autoprotección</h3>
+      </div>
+    </div>
+    <!-- Slide Two - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('assets/img/services-img-2.jpg')">
+      <div class="carousel-caption d-none d-md-block"
+        style="color: black; background: rgb(223, 223, 223); opacity: 0.5">
+        <h3>Registro Actos de Ultima Voluntad</h3>
+      </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('assets/img/services-img-3.jpg')">
+      <div class="carousel-caption d-none d-md-block"
+        style="color: black; background: rgb(223, 223, 223); opacity: 0.5">
+        <h3>Asesoramiento Gratuito CFNA</h3>
+      </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('assets/img/services-img-4.jpg')">
+      <div class="carousel-caption d-none d-md-block"
+        style="color: black; background: rgb(223, 223, 223); opacity: 0.5">
+        <h3>Apostilla</h3>
+      </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('assets/img/services-img-5.jpg')">
+      <div class="carousel-caption d-none d-md-block"
+        style="color: black; background: rgb(223, 223, 223); opacity: 0.5">
+        <h3>Legalización</h3>
+      </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('assets/img/services-img-6.jpg')">
+      <div class="carousel-caption d-none d-md-block"
+        style="color: black; background: rgb(223, 223, 223); opacity: 0.5">
+        <h3>Guardia Notarial</h3>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<img >
+<h1 style="size: 100px"></h1>
+
+ <!-- Marketing Icons Section -->
+ <h3>Archivo de Protocolos Notariales: Aranceles</h3>
+ <p>La Resolución N° 79/2015 establece las tasas retributivas de los servicios que brinda el Archivo de Protocolos
+   Notariales a partir del 01/01/2016 según se enuncia a continuación:</p>
+
+ <div class="mb-4" id="accordion" role="tablist" aria-multiselectable="true">
+   <div class="card">
+     <div class="card-header" role="tab" id="headingOne">
+       <h5 class="mb-0">
+         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+           aria-controls="collapseOne">Expedición de Testimonio.</a>
+       </h5>
+     </div>
+
+     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+       <div class="card-body">
+         $300,00 hasta tres fojas (más $20,00 por cada foja subsiguiente).
+       </div>
+     </div>
+   </div>
+   <div class="card">
+     <div class="card-header" role="tab" id="headingTwo">
+       <h5 class="mb-0">
+         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
+           aria-expanded="false" aria-controls="collapseTwo">Expedición de Copia Certificada.
+         </a>
+       </h5>
+     </div>
+     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+       <div class="card-body">
+         $150,00 hasta tres fojas (más $10,00 por cada foja subsiguiente).
+       </div>
+     </div>
+   </div>
+   <div class="card">
+     <div class="card-header" role="tab" id="headingThree">
+       <h5 class="mb-0">
+         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"
+           aria-expanded="false" aria-controls="collapseThree">Expedición de Copia Simple.</a>
+       </h5>
+     </div>
+     <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+       <div class="card-body">
+         $70,00 hasta tres fojas (más $10,00 por cada foja subsiguiente).
+       </div>
+     </div>
+   </div>
+   <div class="card">
+     <div class="card-header" role="tab" id="headingFour">
+       <h5 class="mb-0">
+         <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
+           aria-expanded="false" aria-controls="collapseFour">Exhibición de Tomos.</a>
+       </h5>
+     </div>
+     <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+       <div class="card-body">
+         $30,00 por Escritura.
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <h2>Observaciones: </h2>
+ <h5>• Los mencionados importes serán abonados al momento de ser solicitados.</h5>
+ <h5>
+   • Los Escribanos en ejercicio de la profesión deberán abonar los indicados importes excepto los correspondientes a
+   la exhibición de tomo. Con respecto a la expedición de Copia simple, los escribanos abonaran el importe de $70,00
+   por cada escritura solicitada.</h5>
+   
+
+ <!-- /.row -->
+ <script src="./src/assets/js/script.js"></script>
