@@ -53,26 +53,26 @@
         <div class="control-group form-group">
           <div class="controls">
             <label>Nombre Completo:</label>
-            <input type="text" class="form-control" id="name" required data-validation-required-message="Por Favor Escriba su Nombre Completo.">
+            <input type="text" class="form-control" id="name" required data-validation-required-message="Por Favor Escriba su Nombre Completo." name="txtNombreCompleto" [(ngModel)]="mensaje.nombreCompleto">
             <p class="help-block"></p>
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
             <label>Numero de Contacto:</label>
-            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por Favor Escriba su numero de Celular o Telefono">
+            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por Favor Escriba su numero de Celular o Telefono" name="txtNumeroDeContacto" [(ngModel)]="mensaje.numeroDeContacto">
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
             <label>Direcion de Correo Electronico:</label>
-            <input type="email" class="form-control" id="email" required data-validation-required-message="Por Favor Escriba el correo electronico.">
+            <input type="email" class="form-control" id="email" required data-validation-required-message="Por Favor Escriba el correo electronico." name="txtCorreoElectronico" [(ngModel)]="mensaje.correoElectronico">
           </div>
         </div>
         <div class="control-group form-group">
           <div class="controls">
             <label>Mensaje:</label>
-            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Por Favor Escriba el Mensaje a Enviar." maxlength="999" style="resize:none"></textarea>
+            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Por Favor Escriba el Mensaje a Enviar." maxlength="999" style="resize:none" name="txtContenido" [(ngModel)]="mensaje.contenido" (ngModelChange)="cambiarTamTexto()" [maxlength]="tamMaximo"></textarea>
           </div>
         </div>
         <div id="success"></div>
