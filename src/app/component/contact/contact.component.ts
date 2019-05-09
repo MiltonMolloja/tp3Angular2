@@ -16,7 +16,7 @@ export class ContactComponent implements OnInit {
   mensajes: Array<Mensaje>;
 
 
-  constructor() { 
+  constructor() {
     this.mensaje = new Mensaje();
     this.mensajes = new Array<Mensaje>();
   }
@@ -27,6 +27,12 @@ export class ContactComponent implements OnInit {
   public cambiarTamTexto(){
     this.tamTexto = this.mensaje.contenido.length;
     console.log(this.tamTexto +" / "+ this.tamMaximo);
-    
+
+  }
+
+  public enviarMensaje(){
+    this.mensaje.fecha = new Date();
+    this.mensajes.push(this.mensaje);
+    this.mensaje = new Mensaje();
   }
 }
